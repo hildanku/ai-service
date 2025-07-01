@@ -1,0 +1,19 @@
+{
+    "name": "ai-service",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/main.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "@google/genai": "^1.7.0",
+        "@hono/node-server": "^1.14.4",
+        "hono": "^4.8.3"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "tsx": "^4.7.1",
+        "typescript": "^5.8.3"
+    }
+}

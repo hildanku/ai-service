@@ -9,6 +9,7 @@
     "dependencies": {
         "@google/genai": "^1.7.0",
         "@hono/node-server": "^1.14.4",
+        "dotenv": "^17.0.0",
         "hono": "^4.8.3"
     },
     "devDependencies": {
